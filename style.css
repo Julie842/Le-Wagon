@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'CircularStd';
+    src: url('assets/CircularStd-Black.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'CircularStd', sans-serif;
+    background-color: #0d1321;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #1d2d44;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    max-width: 80px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.game-board {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+#play-btn {
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #3e5c76;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+#play-btn:hover {
+    background-color: #748cab;
+}
